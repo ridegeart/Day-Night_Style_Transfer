@@ -70,6 +70,18 @@ Perform a comparative analysis between the style-transferred image (downscaled) 
 
 ### Change.py
 
+1. Central Ratio
+```python
+def calculate_local_ratio(V_A, V_B, block_size=9):
+```
+
+2. Global Ratio
+```python
+def calculate_each_ratio(V_A, V_B):
+```
+* Input V channel of each image
+* img_A：style_transfer image
+* img_B：Original image
 
 [1]: https://github.com/zyxElsa/InST
 [2]: https://github.com/lllyasviel/ControlNet
