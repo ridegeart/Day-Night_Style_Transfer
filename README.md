@@ -32,7 +32,30 @@ Refer to [InST][1].
 Refer to [ControlNet][2].
 
 * Build environment
-* 
+* Run web UI or other method `gradio_****2image.py`
+    ```
+    python gradio_hed2image.py
+    ```
+* Prompt
+    ```
+    An aerial view of a parking space road at night with no street lights,a late night scene,nighttime atmosphere,nothing that shines,no light source
+    ```
+* Adavanced setting
+    - resolution：384
+    - images：4
+
+### Control-LoRA
+
+Refer to [Control-LoRA][3].
+
+* Environment-Used env build from ControlNet
+* Run web UI
+    ```
+    python main.py
+    ```
+
+### 
 
 [1]: https://github.com/zyxElsa/InST
-[2]: https://github.com/lllyasviel/ControlNet?tab=readme-ov-file
+[2]: https://github.com/lllyasviel/ControlNet
+[3]: https://github.com/HighCWu/ControlLoRA
