@@ -1,0 +1,3 @@
+[submodule "InST"]
+	path = InST
+	url = https://github.com/zyxElsa/InST.git
