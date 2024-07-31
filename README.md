@@ -49,13 +49,22 @@ Refer to [ControlNet][2].
 Refer to [Control-LoRA][3].
 
 * Environment-Used env build from ControlNet
+* Git Clone form [ComfyUI][4]
+* Download `.safetensors` from [huggingface][5]
+    - saved in `./models/controlnet/control-lora`
+* 
+* Download workflow/Revision-end with `.json` 
 * Run web UI
     ```
     python main.py
     ```
+* Click `Load` to load workflow
+* Click `Queue_Prompt` to Start
 
 ### 
 
 [1]: https://github.com/zyxElsa/InST
 [2]: https://github.com/lllyasviel/ControlNet
 [3]: https://github.com/HighCWu/ControlLoRA
+[4]: https://github.com/comfyanonymous/ComfyUI.git
+[5]: https://huggingface.co/stabilityai/control-lora
