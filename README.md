@@ -46,25 +46,36 @@ Refer to [ControlNet][2].
 
 ### Control-LoRA
 
-Refer to [Control-LoRA][3].
+Refer to [Control-LoRA][3]. [Tutorial][6]
 
 * Environment-Used env build from ControlNet
 * Git Clone form [ComfyUI][4]
 * Download `.safetensors` from [huggingface][5]
-    - saved in `./models/controlnet/control-lora`
-* 
+    - save in `./models/controlnet/control-lora`
+* Download `sd_xl_base_1.0.safetensors` from [huggingface][7]
+    - save in `./models/checkpoint`
 * Download workflow/Revision-end with `.json` 
+* Install custom nodes [Tutorial][8]
 * Run web UI
     ```
     python main.py
     ```
 * Click `Load` to load workflow
+* Upadate UnInstall node
 * Click `Queue_Prompt` to Start
 
-### 
+## Comparative analysis
+
+Perform a comparative analysis between the style-transferred image (downscaled) and the original image patch. Segment the entire runway and apply brightness adjustments to individual segments.
+
+### Change.py
+
 
 [1]: https://github.com/zyxElsa/InST
 [2]: https://github.com/lllyasviel/ControlNet
 [3]: https://github.com/HighCWu/ControlLoRA
 [4]: https://github.com/comfyanonymous/ComfyUI.git
 [5]: https://huggingface.co/stabilityai/control-lora
+[6]: https://youtu.be/uK51kvxFkhc?si=-XrWl89Z_Yedszjd
+[7]: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/tree/main
+[8]: https://ivonblog.com/posts/comfyui-install-extensions/
