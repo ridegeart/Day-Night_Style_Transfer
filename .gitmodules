@@ -4,3 +4,6 @@
 [submodule "ControlNet"]
 	path = ControlNet
 	url = https://github.com/lllyasviel/ControlNet.git
+[submodule "ComfyUI"]
+	path = ComfyUI
+	url = https://github.com/comfyanonymous/ComfyUI.git
